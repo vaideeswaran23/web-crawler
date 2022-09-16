@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+#todo: make sure to always enable security in production
+security:
+  basic:
+    enabled: false
+
+
+project:
+  name: web-crawler
+  version: 0.1
+  description: App to crawl the web
+info:
+  build:
+    artifact: ${project.artifactId}
+    name: ${project.name}
+    description: ${project.description}
+    version: ${project.version}
+
+ 
